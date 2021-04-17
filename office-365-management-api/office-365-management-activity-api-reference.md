@@ -110,7 +110,7 @@ The Activity API supports the following operations:
 
 ## Start a subscription
 
-This operation starts a subscription to the specified content type. If a subscription to the specified content type already exists, this operation is used to:
+This operation starts a subscription to the specified content type, or updates the existing to the specified content type if one already exists(a tenant can have only one subscription to each content type). If a subscription to the specified content type already exists, this operation is used to:
 
 - Update the properties of an active webhook.
     
